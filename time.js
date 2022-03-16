@@ -3,7 +3,7 @@ function clock(){
     var m = new Date().getMinutes();
     var d = new Date().getDate();
     var mo = new Date().getMonth();
-    
+
 
     var monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
