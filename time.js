@@ -10,9 +10,9 @@ function clock(){
     document.getElementById("hour").innerHTML = h + ' : ' + m;
     document.getElementById("month").innerHTML = monthNames[mo] + ' ' + d;
     if (h<12){
-     document.getElementById("name").innerHTML= 'Good Morning Thaylor!'
+     document.getElementById("name").innerHTML= 'Good' + 'Morning' + 'Thaylor!'
     } else if (h>12){
-        document.getElementById("hour").innerHTML = 'Good Night Thaylor!'
+        document.getElementById("hour").innerHTML = 'Good' + 'Night' + 'Thaylor!'
     }
 }
 
