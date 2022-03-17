@@ -12,7 +12,7 @@ function clock(){
     if (h<12){
      document.getElementById("name").innerHTML= 'Good Morning Thaylor!'
     } else if (h>12){
-        document.getElementById("hour").innerHTML = 'Good Night Thaylor!'
+        document.getElementById("name").innerHTML = 'Good Night Thaylor!'
     }
 }
 
